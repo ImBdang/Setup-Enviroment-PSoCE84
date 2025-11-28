@@ -1,1 +1,4 @@
-Setup môi trường cho PSoC E84 cho ubuntu 22.04.05 LTS
+#Mô tả
+Hướng dẫn thiết lập môi trường cho PSoC E84
+##MobusToolBox 3.2
+a
