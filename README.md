@@ -1,7 +1,7 @@
 
 Hướng dẫn thiết lập môi trường cho PSoC E84
 
-## Cần cài MobusToolbox v3.2
+# Cần cài MobusToolbox v3.2
 ModusToolbox là bộ công cụ phát triển chính thức của Infineon dành cho các dòng MCU như PSoC, PSoC Edge, XMC, Traveo…
 
 Nó tích hợp sẵn GCC Arm toolchain, Eclipse IDE, BSP, HAL, PDL và nhiều công cụ sẵn khác
@@ -13,7 +13,7 @@ PDL (Peripheral Driver Library)
 
 
 
-## Cần cài EAP (Early Access Pack)
+# Cần cài EAP (Early Access Pack)
 Gói mở rộng giúp ModusToolbox hỗ trợ các MCU mới phát hành, chẳng hạn như PSoC Edge E84
 
 Pack này sẽ chứa BSP, PDL/HAL, ...
@@ -21,11 +21,11 @@ Pack này sẽ chứa BSP, PDL/HAL, ...
 
 
 
-## Setup biến môi trường 
+# Setup biến môi trường 
 Cần thiết lập biến MTB_ENABLE_EARLY_ACCESS để Mobus có thể sử dụng pack early
 
 
-## Python và edgeprotecttools
+# Python và edgeprotecttools
 EdgeProtectTools là bộ công cụ phục vụ secure boot và ký firmware cho PSoC Edge E84
 
 Nó được cài qua Python (pip) và bao gồm:
