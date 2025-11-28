@@ -10,13 +10,16 @@ BSP (Board Support Package) gói phần mềm cung cấp mọi thứ cần thi�
 
 PDL (Peripheral Driver Library)
 
+
 ### Cần cài EAP (Early Access Pack)
 Gói mở rộng giúp ModusToolbox hỗ trợ các MCU mới phát hành, chẳng hạn như PSoC Edge E84
 
 Pack này sẽ chứa BSP, PDL/HAL, ...
 
+
 ### Setup biến môi trường 
 Cần thiết lập biến MTB_ENABLE_EARLY_ACCESS để Mobus có thể sử dụng pack early
+
 
 ### Python và edgeprotecttools
 EdgeProtectTools là bộ công cụ phục vụ secure boot và ký firmware cho PSoC Edge E84
