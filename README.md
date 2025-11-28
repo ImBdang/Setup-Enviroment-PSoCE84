@@ -38,3 +38,16 @@ Hỗ trợ chuỗi secure boot của E84
 
 EdgeProtectTools yêu cầu Python 3.8–3.12 
 
+
+# Lưu ý khác
+Để nạp code cho E84, nếu dùng KitProg3 hãy đảm bảo phiên bản firmware của nó là 2.60.1412
+
+
+On the PSOC™ Edge E84 Evaluation kit (KIT_PSOCE84_EVK) please ensure below jumper and pin configuration
+are correctly placed on board.
+
+
+Ensure Boot.1(Boot SW) Pin(P17.6) should be in 'High'/ON position
+
+
+Ensure J20 and J21 should be in Tristate/Not-Connected(NC) position
